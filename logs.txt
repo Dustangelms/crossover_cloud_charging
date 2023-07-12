@@ -1,0 +1,94 @@
+Execution log for request e4c97a21-dc51-49b6-84ce-f636a0e0e1ca
+Wed Jul 12 00:18:22 UTC 2023 : Starting execution for request: e4c97a21-dc51-49b6-84ce-f636a0e0e1ca
+Wed Jul 12 00:18:22 UTC 2023 : HTTP Method: POST, Resource Path: /charge-request-redis
+Wed Jul 12 00:18:22 UTC 2023 : Method request path: {}
+Wed Jul 12 00:18:22 UTC 2023 : Method request query string: {}
+Wed Jul 12 00:18:22 UTC 2023 : Method request headers: {}
+Wed Jul 12 00:18:22 UTC 2023 : Method request body before transformations: {"serviceType":"voice"}
+Wed Jul 12 00:18:22 UTC 2023 : Endpoint request URI: https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:140989046628:function:redis-stack-charge_request_redis-lambda-fn/invocations
+Wed Jul 12 00:18:22 UTC 2023 : Endpoint request headers: {X-Amz-Date=20230712T001822Z, x-amzn-apigateway-api-id=hr5avgb099, Accept=application/json, User-Agent=AmazonAPIGateway_hr5avgb099, Host=lambda.us-east-1.amazonaws.com, X-Amz-Content-Sha256=46ec81536364c92672292f8f27ee92e025bc2a1c2752d9a66712eac5e3dc69b2, X-Amzn-Trace-Id=Root=1-64adf14e-af99d1e91b2c140d85f14a72, x-amzn-lambda-integration-tag=e4c97a21-dc51-49b6-84ce-f636a0e0e1ca, Authorization=*********************************************************************************************************************************************************************************************************************************************************************************************************************************************1dc407, X-Amz-Source-Arn=arn:aws:execute-api:us-east-1:140989046628:hr5avgb099/test-invoke-stage/POST/charge-request-redis, X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCXVzLWVhc3QtMSJGMEQCIB+pY+u3rGsQ9pEdoCiF6N5tkrwZh9/d7a8JxscWBqICAiB+C+RyfBqU3NS8pNKdzhYgjmxN61fSvVQnFB8k [TRUNCATED]
+Wed Jul 12 00:18:22 UTC 2023 : Endpoint request body after transformations: {"serviceType":"voice"}
+Wed Jul 12 00:18:22 UTC 2023 : Sending request to https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:140989046628:function:redis-stack-charge_request_redis-lambda-fn/invocations
+Wed Jul 12 00:18:23 UTC 2023 : Received response. Status: 200, Integration latency: 748 ms
+Wed Jul 12 00:18:23 UTC 2023 : Endpoint response headers: {Date=Wed, 12 Jul 2023 00:18:23 GMT, Content-Type=application/json, Content-Length=55, Connection=keep-alive, x-amzn-RequestId=915c2af3-e40e-49cd-925b-e65b9b8ed373, x-amzn-Remapped-Content-Length=0, X-Amz-Executed-Version=$LATEST, X-Amzn-Trace-Id=root=1-64adf14e-af99d1e91b2c140d85f14a72;sampled=0;lineage=fb55f3b6:0}
+Wed Jul 12 00:18:23 UTC 2023 : Endpoint response body before transformations: {"remainingBalance":95,"charges":5,"isAuthorized":true}
+Wed Jul 12 00:18:23 UTC 2023 : Method response body after transformations: {"remainingBalance":95,"charges":5,"isAuthorized":true}
+Wed Jul 12 00:18:23 UTC 2023 : Method response headers: {X-Amzn-Trace-Id=Root=1-64adf14e-af99d1e91b2c140d85f14a72;Sampled=0;lineage=fb55f3b6:0, Content-Type=application/json}
+Wed Jul 12 00:18:23 UTC 2023 : Successfully completed execution
+Wed Jul 12 00:18:23 UTC 2023 : Method completed with status: 200
+
+Execution log for request 9f8c47b4-2cc8-44cf-98ca-fa58f3cbd1c2
+Wed Jul 12 00:18:41 UTC 2023 : Starting execution for request: 9f8c47b4-2cc8-44cf-98ca-fa58f3cbd1c2
+Wed Jul 12 00:18:41 UTC 2023 : HTTP Method: POST, Resource Path: /charge-request-redis
+Wed Jul 12 00:18:41 UTC 2023 : Method request path: {}
+Wed Jul 12 00:18:41 UTC 2023 : Method request query string: {}
+Wed Jul 12 00:18:41 UTC 2023 : Method request headers: {}
+Wed Jul 12 00:18:41 UTC 2023 : Method request body before transformations: {"serviceType":"voice","unit":2}
+Wed Jul 12 00:18:41 UTC 2023 : Endpoint request URI: https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:140989046628:function:redis-stack-charge_request_redis-lambda-fn/invocations
+Wed Jul 12 00:18:41 UTC 2023 : Endpoint request headers: {X-Amz-Date=20230712T001841Z, x-amzn-apigateway-api-id=hr5avgb099, Accept=application/json, User-Agent=AmazonAPIGateway_hr5avgb099, Host=lambda.us-east-1.amazonaws.com, X-Amz-Content-Sha256=5716896d1bdbe61fc5059450c4ce8e7b6981859672d44b525a2fdc275a7a4de8, X-Amzn-Trace-Id=Root=1-64adf161-f9bfbc93825dd61b2e95a0fc, x-amzn-lambda-integration-tag=9f8c47b4-2cc8-44cf-98ca-fa58f3cbd1c2, Authorization=*********************************************************************************************************************************************************************************************************************************************************************************************************************************************cb833e, X-Amz-Source-Arn=arn:aws:execute-api:us-east-1:140989046628:hr5avgb099/test-invoke-stage/POST/charge-request-redis, X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCXVzLWVhc3QtMSJIMEYCIQCB80ARXUOD05HerjjsrL+b3HpzL2Yl/RlpIBPMOgMaIAIhAOVV35M9RZz7ag4xL1GPVauGPz5mHs432kwj [TRUNCATED]
+Wed Jul 12 00:18:41 UTC 2023 : Endpoint request body after transformations: {"serviceType":"voice","unit": 2}
+Wed Jul 12 00:18:41 UTC 2023 : Sending request to https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:140989046628:function:redis-stack-charge_request_redis-lambda-fn/invocations
+Wed Jul 12 00:18:41 UTC 2023 : Received response. Status: 200, Integration latency: 19 ms
+Wed Jul 12 00:18:41 UTC 2023 : Endpoint response headers: {Date=Wed, 12 Jul 2023 00:18:41 GMT, Content-Type=application/json, Content-Length=56, Connection=keep-alive, x-amzn-RequestId=2868c8b9-414e-48bc-843f-db226e7ae543, x-amzn-Remapped-Content-Length=0, X-Amz-Executed-Version=$LATEST, X-Amzn-Trace-Id=root=1-64adf161-f9bfbc93825dd61b2e95a0fc;sampled=0;lineage=fb55f3b6:0}
+Wed Jul 12 00:18:41 UTC 2023 : Endpoint response body before transformations: {"remainingBalance":85,"charges":10,"isAuthorized":true}
+Wed Jul 12 00:18:41 UTC 2023 : Method response body after transformations: {"remainingBalance":85,"charges":10,"isAuthorized":true}
+Wed Jul 12 00:18:41 UTC 2023 : Method response headers: {X-Amzn-Trace-Id=Root=1-64adf161-f9bfbc93825dd61b2e95a0fc;Sampled=0;lineage=fb55f3b6:0, Content-Type=application/json}
+Wed Jul 12 00:18:41 UTC 2023 : Successfully completed execution
+Wed Jul 12 00:18:41 UTC 2023 : Method completed with status: 200
+
+Execution log for request 0f2dcb89-f97b-4d50-a3c7-7dd6c492e4b8
+Wed Jul 12 00:18:54 UTC 2023 : Starting execution for request: 0f2dcb89-f97b-4d50-a3c7-7dd6c492e4b8
+Wed Jul 12 00:18:54 UTC 2023 : HTTP Method: POST, Resource Path: /charge-request-redis
+Wed Jul 12 00:18:54 UTC 2023 : Method request path: {}
+Wed Jul 12 00:18:54 UTC 2023 : Method request query string: {}
+Wed Jul 12 00:18:54 UTC 2023 : Method request headers: {}
+Wed Jul 12 00:18:54 UTC 2023 : Method request body before transformations: {"serviceType":"voice","unit": 10}
+Wed Jul 12 00:18:54 UTC 2023 : Endpoint request URI: https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:140989046628:function:redis-stack-charge_request_redis-lambda-fn/invocations
+Wed Jul 12 00:18:54 UTC 2023 : Endpoint request headers: {X-Amz-Date=20230712T001854Z, x-amzn-apigateway-api-id=hr5avgb099, Accept=application/json, User-Agent=AmazonAPIGateway_hr5avgb099, Host=lambda.us-east-1.amazonaws.com, X-Amz-Content-Sha256=560b0e749730c2a34fd602b8bdf6975264879684c27766ed083ca89ecfac7616, X-Amzn-Trace-Id=Root=1-64adf16e-fc528ad232d601b280559c7d, x-amzn-lambda-integration-tag=0f2dcb89-f97b-4d50-a3c7-7dd6c492e4b8, Authorization=*********************************************************************************************************************************************************************************************************************************************************************************************************************************************c7d417, X-Amz-Source-Arn=arn:aws:execute-api:us-east-1:140989046628:hr5avgb099/test-invoke-stage/POST/charge-request-redis, X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLWVhc3QtMSJHMEUCIQCcFBllcel/tvimMIjem074EEp5utHZa8mOYQwLQRnAKgIgSWk71/0qdTT2PsbGUAieYgtxDa/yjy0pHuYf [TRUNCATED]
+Wed Jul 12 00:18:54 UTC 2023 : Endpoint request body after transformations: {"serviceType":"voice","unit":10}
+Wed Jul 12 00:18:54 UTC 2023 : Sending request to https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:140989046628:function:redis-stack-charge_request_redis-lambda-fn/invocations
+Wed Jul 12 00:18:54 UTC 2023 : Received response. Status: 200, Integration latency: 17 ms
+Wed Jul 12 00:18:54 UTC 2023 : Endpoint response headers: {Date=Wed, 12 Jul 2023 00:18:54 GMT, Content-Type=application/json, Content-Length=56, Connection=keep-alive, x-amzn-RequestId=99d329c7-2075-4a37-a82d-14902c5d73c2, x-amzn-Remapped-Content-Length=0, X-Amz-Executed-Version=$LATEST, X-Amzn-Trace-Id=root=1-64adf16e-fc528ad232d601b280559c7d;sampled=0;lineage=fb55f3b6:0}
+Wed Jul 12 00:18:54 UTC 2023 : Endpoint response body before transformations: {"remainingBalance":35,"charges":50,"isAuthorized":true}
+Wed Jul 12 00:18:54 UTC 2023 : Method response body after transformations: {"remainingBalance":35,"charges":50,"isAuthorized":true}
+Wed Jul 12 00:18:54 UTC 2023 : Method response headers: {X-Amzn-Trace-Id=Root=1-64adf16e-fc528ad232d601b280559c7d;Sampled=0;lineage=fb55f3b6:0, Content-Type=application/json}
+Wed Jul 12 00:18:54 UTC 2023 : Successfully completed execution
+Wed Jul 12 00:18:54 UTC 2023 : Method completed with status: 200
+
+Execution log for request b4f15cf1-ff85-4b5b-9b2d-b74ed5f5288c
+Wed Jul 12 00:19:04 UTC 2023 : Starting execution for request: b4f15cf1-ff85-4b5b-9b2d-b74ed5f5288c
+Wed Jul 12 00:19:04 UTC 2023 : HTTP Method: POST, Resource Path: /charge-request-redis
+Wed Jul 12 00:19:04 UTC 2023 : Method request path: {}
+Wed Jul 12 00:19:04 UTC 2023 : Method request query string: {}
+Wed Jul 12 00:19:04 UTC 2023 : Method request headers: {}
+Wed Jul 12 00:19:04 UTC 2023 : Method request body before transformations: {"serviceType":"voice","unit":10}
+Wed Jul 12 00:19:04 UTC 2023 : Endpoint request URI: https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:140989046628:function:redis-stack-charge_request_redis-lambda-fn/invocations
+Wed Jul 12 00:19:04 UTC 2023 : Endpoint request headers: {X-Amz-Date=20230712T001904Z, x-amzn-apigateway-api-id=hr5avgb099, Accept=application/json, User-Agent=AmazonAPIGateway_hr5avgb099, Host=lambda.us-east-1.amazonaws.com, X-Amz-Content-Sha256=560b0e749730c2a34fd602b8bdf6975264879684c27766ed083ca89ecfac7616, X-Amzn-Trace-Id=Root=1-64adf178-20e426d20ca8dfd23ed90e6f, x-amzn-lambda-integration-tag=b4f15cf1-ff85-4b5b-9b2d-b74ed5f5288c, Authorization=*********************************************************************************************************************************************************************************************************************************************************************************************************************************************564c7f, X-Amz-Source-Arn=arn:aws:execute-api:us-east-1:140989046628:hr5avgb099/test-invoke-stage/POST/charge-request-redis, X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCXVzLWVhc3QtMSJGMEQCIGFROIwo537+yTwjEDIJqqILRvBRtMGPKG/12e2O4xfbAiAI9vgmmN3Qcsrh51k+cjgU4W61AJqkyE2sMo4N [TRUNCATED]
+Wed Jul 12 00:19:04 UTC 2023 : Endpoint request body after transformations: {"serviceType":"voice","unit": 10}
+Wed Jul 12 00:19:04 UTC 2023 : Sending request to https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:140989046628:function:redis-stack-charge_request_redis-lambda-fn/invocations
+Wed Jul 12 00:19:04 UTC 2023 : Received response. Status: 200, Integration latency: 19 ms
+Wed Jul 12 00:19:04 UTC 2023 : Endpoint response headers: {Date=Wed, 12 Jul 2023 00:19:04 GMT, Content-Type=application/json, Content-Length=56, Connection=keep-alive, x-amzn-RequestId=8d2350ac-90c5-4878-bcb9-95764acce93a, x-amzn-Remapped-Content-Length=0, X-Amz-Executed-Version=$LATEST, X-Amzn-Trace-Id=root=1-64adf178-20e426d20ca8dfd23ed90e6f;sampled=0;lineage=fb55f3b6:0}
+Wed Jul 12 00:19:04 UTC 2023 : Endpoint response body before transformations: {"remainingBalance":35,"charges":0,"isAuthorized":false}
+Wed Jul 12 00:19:04 UTC 2023 : Method response body after transformations: {"remainingBalance":35,"charges":0,"isAuthorized":false}
+Wed Jul 12 00:19:04 UTC 2023 : Method response headers: {X-Amzn-Trace-Id=Root=1-64adf178-20e426d20ca8dfd23ed90e6f;Sampled=0;lineage=fb55f3b6:0, Content-Type=application/json}
+Wed Jul 12 00:19:04 UTC 2023 : Successfully completed execution
+Wed Jul 12 00:19:04 UTC 2023 : Method completed with status: 200
+
+Execution log for request d32b5f96-9f66-483d-a3ec-122063dca9cd
+Wed Jul 12 00:19:15 UTC 2023 : Starting execution for request: d32b5f96-9f66-483d-a3ec-122063dca9cd
+Wed Jul 12 00:19:15 UTC 2023 : HTTP Method: POST, Resource Path: /charge-request-redis
+Wed Jul 12 00:19:15 UTC 2023 : Method request path: {}
+Wed Jul 12 00:19:15 UTC 2023 : Method request query string: {}
+Wed Jul 12 00:19:15 UTC 2023 : Method request headers: {}
+Wed Jul 12 00:19:15 UTC 2023 : Method request body before transformations: {"serviceType":"voice","unit":2}
+Wed Jul 12 00:19:15 UTC 2023 : Endpoint request URI: https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:140989046628:function:redis-stack-charge_request_redis-lambda-fn/invocations
+Wed Jul 12 00:19:15 UTC 2023 : Endpoint request headers: {X-Amz-Date=20230712T001915Z, x-amzn-apigateway-api-id=hr5avgb099, Accept=application/json, User-Agent=AmazonAPIGateway_hr5avgb099, Host=lambda.us-east-1.amazonaws.com, X-Amz-Content-Sha256=5716896d1bdbe61fc5059450c4ce8e7b6981859672d44b525a2fdc275a7a4de8, X-Amzn-Trace-Id=Root=1-64adf183-9f7ddaf64f7066c6d1aeef19, x-amzn-lambda-integration-tag=d32b5f96-9f66-483d-a3ec-122063dca9cd, Authorization=*********************************************************************************************************************************************************************************************************************************************************************************************************************************************aa1508, X-Amz-Source-Arn=arn:aws:execute-api:us-east-1:140989046628:hr5avgb099/test-invoke-stage/POST/charge-request-redis, X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCXVzLWVhc3QtMSJHMEUCIA48zDJEDjmpfL2bnEiiTfw4pY5KO3mlzKKfmTpTX/8CAiEAtnjCAukWMg0M0kYdcdSQj80hh6smCHNMRQfw [TRUNCATED]
+Wed Jul 12 00:19:15 UTC 2023 : Endpoint request body after transformations: {"serviceType":"voice","unit":2}
+Wed Jul 12 00:19:15 UTC 2023 : Sending request to https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:140989046628:function:redis-stack-charge_request_redis-lambda-fn/invocations
+Wed Jul 12 00:19:15 UTC 2023 : Received response. Status: 200, Integration latency: 25 ms
+Wed Jul 12 00:19:15 UTC 2023 : Endpoint response headers: {Date=Wed, 12 Jul 2023 00:19:15 GMT, Content-Type=application/json, Content-Length=56, Connection=keep-alive, x-amzn-RequestId=56e9ec90-4035-48bb-86a5-17e0a65a0112, x-amzn-Remapped-Content-Length=0, X-Amz-Executed-Version=$LATEST, X-Amzn-Trace-Id=root=1-64adf183-9f7ddaf64f7066c6d1aeef19;sampled=0;lineage=fb55f3b6:0}
+Wed Jul 12 00:19:15 UTC 2023 : Endpoint response body before transformations: {"remainingBalance":25,"charges":10,"isAuthorized":true}
+Wed Jul 12 00:19:15 UTC 2023 : Method response body after transformations: {"remainingBalance":25,"charges":10,"isAuthorized":true}
+Wed Jul 12 00:19:15 UTC 2023 : Method response headers: {X-Amzn-Trace-Id=Root=1-64adf183-9f7ddaf64f7066c6d1aeef19;Sampled=0;lineage=fb55f3b6:0, Content-Type=application/json}
+Wed Jul 12 00:19:15 UTC 2023 : Successfully completed execution
+Wed Jul 12 00:19:15 UTC 2023 : Method completed with status: 200
